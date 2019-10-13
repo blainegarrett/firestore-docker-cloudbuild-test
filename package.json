@@ -1,0 +1,23 @@
+{
+  "name": "firestore-docker-cloudbuild-test",
+  "version": "1.0.0",
+  "description": "gcloud --project blaine-garrett app deploy app.yaml --version material --verbosity=debug",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "PORT=7777 node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://blainegarrett@github.com/blainegarrett/firestore-docker-cloudbuild-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blainegarrett/firestore-docker-cloudbuild-test/issues"
+  },
+  "homepage": "https://github.com/blainegarrett/firestore-docker-cloudbuild-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
